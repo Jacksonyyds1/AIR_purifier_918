@@ -24,6 +24,7 @@
 
 #include "at32f403_board.h"
 #include "at32f403_clock.h"
+#include "led_control.h"
 
 /** @addtogroup AT32F403_periph_template
   * @{
@@ -38,6 +39,8 @@
 #define SLOW                             4
 
 uint8_t g_speed = FAST;
+
+static uint8_t led_count = 0;
 
 void button_exint_init(void);
 void button_isr(void);
@@ -105,6 +108,8 @@ void EXINT0_IRQHandler(void)
   */
 int main(void)
 {
+	button_type button_status;
+	
   system_clock_config();
 
   at32_board_init();
@@ -112,11 +117,23 @@ int main(void)
   button_exint_init();
 
   uart_print_init(115200);
-  printf("at32 mcu initialize ok.\r\n");
-	printf("HICK_VALUE = %d Hz\n", HICK_VALUE);
+  
+	 printf("AT32F403 按键控制LED程序启动\r\n");
+  Led_control_by_count(0);
   while(1)
   {
-    
+    button_status = at32_button_press();
+		
+		if(button_status == USER_BUTTON)
+		{
+			led_count ++;
+			if(led_count>3) led_count=1;
+			
+			Led_control_by_count(led_count);
+			delay_ms(100);
+			printf("按键按下次数:%d\r\n",led_count);
+		}
+		delay_ms(10);
   }
 }
 

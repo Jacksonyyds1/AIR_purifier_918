@@ -36,3 +36,4 @@
 .\objects\main.o: ..\..\..\..\libraries\drivers\inc\at32f403_misc.h
 .\objects\main.o: ..\..\..\..\libraries\drivers\inc\at32f403_usb.h
 .\objects\main.o: ..\inc\at32f403_clock.h
+.\objects\main.o: ..\inc\led_control.h
