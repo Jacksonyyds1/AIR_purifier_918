@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 #include <time.h>
-#include <string.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -22,6 +21,8 @@ typedef enum
 #define ENABLE_LOGGING 0 // 是否启用日志打印
 
 #if ENABLE_LOGGING
+
+#include <string.h>
 
 // 获取文件名（去除路径）
 static inline const char *get_filename(const char *filepath)

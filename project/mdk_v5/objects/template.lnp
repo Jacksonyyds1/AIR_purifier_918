@@ -1,9 +1,11 @@
---cpu=Cortex-M4.fp.sp
+--cpu=Cortex-M4.fp.sp --lto
 ".\objects\at32f403_clock.o"
 ".\objects\at32f403_int.o"
 ".\objects\main.o"
 ".\objects\led_control.o"
+".\objects\logger.o"
 ".\objects\at32f403_board.o"
+".\objects\multi_button.o"
 ".\objects\at32f403_adc.o"
 ".\objects\at32f403_bpr.o"
 ".\objects\at32f403_can.o"
@@ -29,7 +31,8 @@
 ".\objects\at32f403_xmc.o"
 ".\objects\system_at32f403.o"
 ".\objects\startup_at32f403.o"
---library_type=microlib --strict --scatter ".\objects\template.sct"
+".\objects\timeevent.o"
+--strict --scatter ".\objects\template.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\listings\template.map" -o .\objects\template.axf

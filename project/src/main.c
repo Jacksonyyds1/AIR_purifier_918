@@ -118,7 +118,7 @@ int main(void)
 
   uart_print_init(115200);
   
-	 printf("AT32F403 按键控制LED程序启动\r\n");
+	printf("AT32F403 Board LED Control Demo\r\n");
   Led_control_by_count(0);
   while(1)
   {
@@ -131,7 +131,7 @@ int main(void)
 			
 			Led_control_by_count(led_count);
 			delay_ms(100);
-			printf("按键按下次数:%d\r\n",led_count);
+		printf("Button press count: %d\r\n",led_count);
 		}
 		delay_ms(10);
   }

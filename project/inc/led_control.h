@@ -16,7 +16,7 @@ extern "C" {
 
 #include<stdint.h> 
 
-void Led_control_by_count(uint8_t count);
+void Led_control_by_count(unsigned char count);
 
 #ifdef __cplusplus
 }

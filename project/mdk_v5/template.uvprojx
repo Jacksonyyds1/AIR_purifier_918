@@ -7,11 +7,11 @@
 
   <Targets>
     <Target>
-      <TargetName>template</TargetName>
+      <TargetName>AIR_Purifer_918</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
-      <uAC6>0</uAC6>
+      <pCCUsed>6210000::V6.21::ARMCLANG</pCCUsed>
+      <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>-AT32F403ZGT6</Device>
@@ -79,9 +79,9 @@
             <nStopB2X>0</nStopB2X>
           </BeforeMake>
           <AfterMake>
-            <RunUserProg1>0</RunUserProg1>
+            <RunUserProg1>1</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name></UserProg1Name>
+            <UserProg1Name>C:\Keil_v5\ARM\ARMCLANG\Bin\fromelf.exe --bin -o objects/Dyson831-P2.bin objects/Dyson831-P2.axf</UserProg1Name>
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
@@ -189,7 +189,7 @@
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>1</useUlib>
+            <useUlib>0</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -313,7 +313,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>1</Optim>
+            <Optim>2</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -322,24 +322,24 @@
             <PlainCh>0</PlainCh>
             <Ropi>0</Ropi>
             <Rwpi>0</Rwpi>
-            <wLevel>2</wLevel>
+            <wLevel>3</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>0</uC99>
             <uGnu>0</uGnu>
-            <useXO>0</useXO>
-            <v6Lang>1</v6Lang>
-            <v6LangP>1</v6LangP>
+            <useXO>1</useXO>
+            <v6Lang>3</v6Lang>
+            <v6LangP>3</v6LangP>
             <vShortEn>1</vShortEn>
             <vShortWch>1</vShortWch>
-            <v6Lto>0</v6Lto>
+            <v6Lto>1</v6Lto>
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define>AT32F403ZGT6,USE_STDPERIPH_DRIVER,AT_START_F403_V1</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\..\libraries\drivers\inc;..\..\..\..\libraries\cmsis\cm4\core_support;..\..\..\..\libraries\cmsis\cm4\device_support;..\inc;..\..\..\at32f403_board;..\..\libraries\timer_event</IncludePath>
+              <IncludePath>..\inc;..\..\libraries\drivers\inc;..\..\libraries\cmsis\cm4\core_support;..\..\libraries\cmsis\cm4\device_support;..\at32f403_board;..\..\libraries\timer_envent;..\iHastek\inc;..\..\libraries\absolute_encoder</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -403,6 +403,11 @@
               <FileType>1</FileType>
               <FilePath>..\src\led_control.c</FilePath>
             </File>
+            <File>
+              <FileName>logger.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\logger.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -411,7 +416,12 @@
             <File>
               <FileName>at32f403_board.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\at32f403_board\at32f403_board.c</FilePath>
+              <FilePath>..\at32f403_board\at32f403_board.c</FilePath>
+            </File>
+            <File>
+              <FileName>multi_button.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\multi_button.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -421,117 +431,117 @@
             <File>
               <FileName>at32f403_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_adc.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_adc.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_bpr.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_bpr.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_bpr.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_can.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_can.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_can.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_crc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_crc.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_crc.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_crm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_crm.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_crm.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_dac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_dac.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_dac.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_debug.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_debug.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_debug.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_dma.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_dma.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_exint.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_exint.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_exint.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_flash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_flash.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_flash.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_gpio.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_gpio.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_i2c.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_i2c.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_misc.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_misc.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_pwc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_pwc.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_pwc.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_rtc.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_rtc.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_sdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_sdio.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_sdio.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_spi.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_spi.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_tmr.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_tmr.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_tmr.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_usart.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_usart.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_usb.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_usb.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_usb.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_wdt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_wdt.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_wdt.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_wwdt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_wwdt.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_wwdt.c</FilePath>
             </File>
             <File>
               <FileName>at32f403_xmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\drivers\src\at32f403_xmc.c</FilePath>
+              <FilePath>..\..\libraries\drivers\src\at32f403_xmc.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -541,12 +551,12 @@
             <File>
               <FileName>system_at32f403.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f403.c</FilePath>
+              <FilePath>..\..\libraries\cmsis\cm4\device_support\system_at32f403.c</FilePath>
             </File>
             <File>
               <FileName>startup_at32f403.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\..\..\libraries\cmsis\cm4\device_support\startup\mdk\startup_at32f403.s</FilePath>
+              <FilePath>..\..\libraries\cmsis\cm4\device_support\startup\mdk\startup_at32f403.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -556,7 +566,7 @@
             <File>
               <FileName>TimeEvent.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\libraries\timer_envent\TimeEvent.c</FilePath>
+              <FilePath>..\..\libraries\timer_envent\TimeEvent.c</FilePath>
             </File>
           </Files>
         </Group>
