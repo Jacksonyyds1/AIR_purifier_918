@@ -1,980 +1,982 @@
 Dependencies for Project 'template', Target 'AIR_Purifer_918': (DO NOT MODIFY !)
 CompilerVersion: 6210000::V6.21::ARMCLANG
-F (..\src\at32f403_clock.c)(0x6848E7BA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_clock.o -MD)
-I (..\inc\at32f403_clock.h)(0x675A6EA9)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+F (..\src\at32f403_clock.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_clock.o -MD)
+I (..\inc\at32f403_clock.h)(0x684AC88D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
 I (..\..\libraries\drivers\inc\at32f403_def.hy.\inc\at32f403_conf.h)(0x00000000)
-I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\src\at32f403_int.c)(0x68492A7D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_int.o -MD)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\src\at32f403_int.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_int.o -MD)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
 I (..\..\libraries\drivers\inc\at32f403_def.hy.\inc\at32f403_conf.h)(0x00000000)
-I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\src\main.c)(0x684A8FF2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/main.o -MD)
+I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\src\main.c)(0x684AD299)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/main.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
 I (..\..\libraries\drivers\inc\at32f403_def.hy.\inc\at32f403_conf.h)(0x00000000)
-I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
+I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
 I (..\..\libraries\drivers\inc\at32f403_usb.hh.\inc\at32f403_clock.h)(0x00000000)
-I (..\inc\led_control.h)(0x684A8263)
-F (..\src\led_control.c)(0x684A828E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/led_control.o -MD)
-I (..\at32f403_board\at32f403_board.h)(0x675A6EA8)
+I (..\inc\logger.h\:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\..\libraries\timer_envent\TimeEvent.h)(0x684AC88D)
+F (..\src\led_control.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/led_control.o -MD)
+I (..\at32f403_board\at32f403_board.h)(0x684AC88D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
 I (..\..\libraries\drivers\inc\at32f403_def.hy.\inc\at32f403_conf.h)(0x00000000)
-I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
+I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
 I (..\..\libraries\drivers\inc\at32f403_usb.hh.\inc\at32f403_clock.h)(0x00000000)
-I (..\inc\led_control.h)(0x684A8263)
-F (..\src\logger.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/logger.o -MD)
+I (..\inc\led_control.h)(0x684AC88D)
+F (..\src\logger.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/logger.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
 I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x6569B012)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
-F (..\at32f403_board\at32f403_board.c)(0x684A8FD4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_board.o -MD)
-I (..\at32f403_board\at32f403_board.h)(0x675A6EA8)
+F (..\at32f403_board\at32f403_board.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_board.o -MD)
+I (..\at32f403_board\at32f403_board.h)(0x684AC88D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
 I (..\..\libraries\drivers\inc\at32f403_def.hy.\inc\at32f403_conf.h)(0x00000000)
-I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\bsp\multi_button.c)(0x684AB1ED)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/multi_button.o -MD)
+I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\bsp\multi_button.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/multi_button.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
-F (..\..\libraries\drivers\src\at32f403_adc.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_adc.o -MD)
+F (..\..\libraries\drivers\src\at32f403_adc.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_adc.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_bpr.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_bpr.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_bpr.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_bpr.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_can.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_can.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_can.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_can.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_crc.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_crc.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_crc.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_crc.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_crm.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_crm.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_crm.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_crm.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_dac.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_dac.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_dac.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_dac.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_debug.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_debug.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_debug.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_debug.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_dma.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_dma.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_dma.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_dma.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_exint.c)(0x675A6E98)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_exint.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_exint.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_exint.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_flash.c)(0x6761544C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_flash.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_flash.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_flash.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_gpio.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_gpio.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_gpio.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_gpio.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_i2c.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_i2c.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_i2c.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_i2c.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_misc.c)(0x675A6E98)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_misc.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_misc.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_misc.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_pwc.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_pwc.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_pwc.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_pwc.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_rtc.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_rtc.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_rtc.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_rtc.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_sdio.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_sdio.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_sdio.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_sdio.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_spi.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_spi.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_spi.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_spi.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_tmr.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_tmr.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_tmr.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_tmr.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_usart.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_usart.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_usart.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_usart.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_usb.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_usb.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_usb.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_usb.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_wdt.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_wdt.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_wdt.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_wdt.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_wwdt.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_wwdt.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_wwdt.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_wwdt.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\drivers\src\at32f403_xmc.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_xmc.o -MD)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\drivers\src\at32f403_xmc.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/at32f403_xmc.o -MD)
 I (..\inc\at32f403_conf.hs.\..\libraries\drivers\inc\at32f403_crm.h)(0x00000000)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
-I (..\..\libraries\drivers\inc\at32f403_def.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\cmsis\cm4\device_support\system_at32f403.c)(0x675A6E99)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/system_at32f403.o -MD)
-I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x675A7199)
-I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x675A6E99)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
+I (..\..\libraries\drivers\inc\at32f403_def.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\cmsis\cm4\device_support\system_at32f403.c)(0x684AC88C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/system_at32f403.o -MD)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x684AC88C)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x675A6E99)
-I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x675A6E9A)
-I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x6848E058)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x684AC88C)
+I (D:\kong_qi_jing_hua_qi\AIR_purifier_code_918_3\AIR_purifier_918\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x684AC88C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403.h)(0x684AC88C)
 I (..\..\libraries\drivers\inc\at32f403_def.hy.\inc\at32f403_conf.h)(0x00000000)
-I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_can.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x675A6E98)
-I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x675A6E98)
-F (..\..\libraries\cmsis\cm4\device_support\startup\mdk\startup_at32f403.s)(0x675A6E99)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"AT32F403ZGT6 SETA 1"-o ./objects/startup_at32f403.o)
-F (..\..\libraries\timer_envent\TimeEvent.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/timeevent.o -MD)
+I (..\..\libraries\drivers\inc\at32f403_crm.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_tmr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_rtc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_bpr.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_gpio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_i2c.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usart.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_pwc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_can.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_adc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dac.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_spi.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_dma.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_debug.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_flash.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_crc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wwdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_wdt.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_exint.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_sdio.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_xmc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_misc.h)(0x684AC88D)
+I (..\..\libraries\drivers\inc\at32f403_usb.h)(0x684AC88D)
+F (..\..\libraries\cmsis\cm4\device_support\startup\mdk\startup_at32f403.s)(0x684AC88C)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"AT32F403ZGT6 SETA 1"-o ./objects/startup_at32f403.o)
+F (..\..\libraries\timer_envent\TimeEvent.c)(0x684AC88D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../inc -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../at32f403_board -I ../../libraries/timer_envent -I ../iHastek/inc -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403_DFP/2.1.3/Device/Include-D__UVISION_VERSION="539" -DAT32F403ZGT6 -DAT32F403ZGT6 -DUSE_STDPERIPH_DRIVER -DAT_START_F403_V1-o ./objects/timeevent.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
-I (..\..\libraries\timer_envent\TimeEvent.h)(0x6847DC2B)
+I (..\..\libraries\timer_envent\TimeEvent.h)(0x684AC88D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)

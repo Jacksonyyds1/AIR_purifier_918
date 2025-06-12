@@ -74,6 +74,26 @@ static inline void log_init()
     g_log_level = LOG_LEVEL_INFO;
 }
 
+
+
+#ifndef LOG_ENABLE
+#define LOG_ENABLE 1
+#endif
+
+#if LOG_ENABLE
+    #define LOG_ERROR(fmt, ...) printf("[E] " fmt "\r\n", ##__VA_ARGS__)
+    #define LOG_WARN(fmt, ...)  printf("[W] " fmt "\r\n", ##__VA_ARGS__)
+    #define LOG_INFO(fmt, ...)  printf("[I] " fmt "\r\n", ##__VA_ARGS__)
+    #define LOG_DEBUG(fmt, ...) printf("[D] " fmt "\r\n", ##__VA_ARGS__)
+#else
+    #define LOG_ERROR(fmt, ...)
+    #define LOG_WARN(fmt, ...)
+    #define LOG_INFO(fmt, ...)
+    #define LOG_DEBUG(fmt, ...)
+#endif
+
+
+
 #ifdef __cplusplus
 }
 #endif
