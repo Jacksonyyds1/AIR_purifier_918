@@ -33,5 +33,8 @@
   ..\..\libraries\drivers\inc\at32f403_misc.h \
   ..\..\libraries\drivers\inc\at32f403_usb.h ..\inc\at32f403_clock.h \
   ..\inc\logger.h C:\Keil_v5\ARM\ARMCLANG\include\time.h \
-  C:\Keil_v5\ARM\ARMCLANG\include\string.h \
-  ..\..\libraries\timer_envent\TimeEvent.h ..\iHastek\inc\type.h
+  C:\Keil_v5\ARM\ARMCLANG\include\string.h ..\iHastek\inc\ihastek.h \
+  ..\iHastek\inc\user_config.h ..\iHastek\inc\types.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h ..\iHastek\inc\type.h \
+  ..\inc\define.h ..\..\libraries\timer_envent\TimeEvent.h \
+  ..\bsp\multi_button.h

@@ -25,8 +25,9 @@
 #include "at32f403_board.h"
 #include "at32f403_clock.h"
 #include "logger.h"
-
+#include "ihastek.h"
 #include "TimeEvent.h"
+#include "multi_button.h"
 /** @addtogroup AT32F403_periph_template
   * @{
   */
@@ -46,66 +47,38 @@ static uint8_t led_count = 0;
 void button_exint_init(void);
 void button_isr(void);
 
-/**
-  * @brief  configure button exint
-  * @param  none
-  * @retval none
-  */
-void button_exint_init(void)
-{
-  exint_init_type exint_init_struct;
 
-  crm_periph_clock_enable(CRM_IOMUX_PERIPH_CLOCK, TRUE);
-  gpio_exint_line_config(GPIO_PORT_SOURCE_GPIOA, GPIO_PINS_SOURCE0);
-
-  exint_default_para_init(&exint_init_struct);
-  exint_init_struct.line_enable = TRUE;
-  exint_init_struct.line_mode = EXINT_LINE_INTERRUPT;
-  exint_init_struct.line_select = EXINT_LINE_0;
-  exint_init_struct.line_polarity = EXINT_TRIGGER_RISING_EDGE;
-  exint_init(&exint_init_struct);
-
-  nvic_priority_group_config(NVIC_PRIORITY_GROUP_4);
-  nvic_irq_enable(EXINT0_IRQn, 0, 0);
-}
 
 /**
-  * @brief  button handler function
-  * @param  none
-  * @retval none
-  */
-void button_isr(void)
+ * @brief  定时器3中断服务函数
+ */
+void TMR3_GLOBAL_IRQHandler(void)
 {
-  /* delay 5ms */
-  delay_ms(5);
-
-  /* clear interrupt pending bit */
-  exint_flag_clear(EXINT_LINE_0);
-
-  /* check input pin state */
-  if(SET == gpio_input_data_bit_read(USER_BUTTON_PORT, USER_BUTTON_PIN))
-  {
-    if(g_speed == SLOW)
-      g_speed = FAST;
-    else
-      g_speed = SLOW;
-  }
+    if(tmr_flag_get(TMR3, TMR_OVF_FLAG) != RESET)
+    {
+        /* 清除中断标志 */
+        tmr_flag_clear(TMR3, TMR_OVF_FLAG);
+        
+        /* 调用软件定时器1ms处理函数 */
+        fw_timer_event_isr_1ms();
+    }
 }
-
-/**
-  * @brief  exint0 interrupt handler
-  * @param  none
-  * @retval none
-  */
-void EXINT0_IRQHandler(void)
-{
-  button_isr();
-}
-
 
 void Printf_task(void)
 {
+
+	
 	LOG_ERROR("hello world!\r\n");
+	
+	
+	fw_timer_event_ActiveTimerEvent(1000,Printf_task);
+}
+
+void Led_task(void)
+{
+  button_ticks();
+  
+  LOG_ERROR("LED task running\r\n");
 }
 
 /**
@@ -115,7 +88,6 @@ void Printf_task(void)
   */
 int main(void)
 {
-	button_type button_status;
 	
 	log_init();
 	
@@ -123,16 +95,19 @@ int main(void)
 
   at32_board_init();
 
-  button_exint_init();
-
   uart_print_init(115200);
-  
+	
+	  /* 初始化1ms定时器中断 */
+    timer_1ms_init();
+	
 	fw_timer_event_CancelAllTimerEvent();
 	
-	LOG_ERROR("hello world!\r\n");
+
+	printf("hello world!\r\n");
 	
-	//add task
-	fw_timer_event_ActiveTimerEvent(500,Printf_task);
+	//add 500ms task
+	fw_timer_event_ActiveTimerEvent(1000,Printf_task);
+  fw_timer_event_ActiveTimerEvent(10,Led_task);
 	
 	
   while(1)

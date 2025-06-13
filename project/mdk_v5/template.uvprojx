@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>AT32F403ZGT6,USE_STDPERIPH_DRIVER,AT_START_F403_V1</Define>
               <Undefine></Undefine>
-              <IncludePath>..\inc;..\..\libraries\drivers\inc;..\..\libraries\cmsis\cm4\core_support;..\..\libraries\cmsis\cm4\device_support;..\at32f403_board;..\..\libraries\timer_envent;..\iHastek\inc;..\..\libraries\absolute_encoder</IncludePath>
+              <IncludePath>..\inc;..\..\libraries\drivers\inc;..\..\libraries\cmsis\cm4\core_support;..\..\libraries\cmsis\cm4\device_support;..\at32f403_board;..\..\libraries\timer_envent;..\iHastek\inc;..\..\libraries\absolute_encoder;..\bsp</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

@@ -128,6 +128,8 @@ void delay_sec(uint16_t sec);
 /* printf uart init function */
 void uart_print_init(uint32_t baudrate);
 
+void timer_1ms_init(void);
+
 /**
   * @}
   */

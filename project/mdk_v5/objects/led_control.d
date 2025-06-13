@@ -33,4 +33,6 @@
   ..\..\libraries\drivers\inc\at32f403_xmc.h \
   ..\..\libraries\drivers\inc\at32f403_misc.h \
   ..\..\libraries\drivers\inc\at32f403_usb.h ..\inc\at32f403_clock.h \
-  ..\inc\led_control.h
+  ..\inc\led_control.h ..\bsp\multi_button.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\string.h ..\inc\logger.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\time.h
