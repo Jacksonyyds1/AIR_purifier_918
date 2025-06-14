@@ -37,4 +37,4 @@
   ..\iHastek\inc\user_config.h ..\iHastek\inc\types.h \
   C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h ..\iHastek\inc\type.h \
   ..\inc\define.h ..\..\libraries\timer_envent\TimeEvent.h \
-  ..\bsp\multi_button.h
+  ..\bsp\multi_button.h ..\inc\led_control.h

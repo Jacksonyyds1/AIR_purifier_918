@@ -6,7 +6,8 @@
 typedef struct TIMEREVENT_STRUCT
 {
     uint16_t Time;				///! The rest time of this event
-    void (*Event)(void);		///! The event handler's function pointer of this event
+		uint16_t SetTimeInterval;				///! The rest time of this event
+    void (*Event)(void);		///! The event handler's function 
 } _TIMEREVENT_STRUCT;
 
 /*================================ Definitions ==============================*/
@@ -82,10 +83,10 @@ uint8_t fw_timer_event_ActiveTimerEvent(uint16_t msTime, void (*Event)(void))
 
     for (timereventcnt = 0;timereventcnt < _MAX_EVENT_AMOUNT;timereventcnt++)
     {
-        if ((TimerEvent[timereventcnt].Time != _INACTIVE_TIMER_EVENT) && 
-			(TimerEvent[timereventcnt].Event == Event))
+        if ((TimerEvent[timereventcnt].Time != _INACTIVE_TIMER_EVENT) && (TimerEvent[timereventcnt].Event == Event))
         {
             TimerEvent[timereventcnt].Time = stTimeInterval;
+			TimerEvent[timereventcnt].SetTimeInterval = stTimeInterval;
             return _FALSE;
         }
     }
@@ -95,6 +96,7 @@ uint8_t fw_timer_event_ActiveTimerEvent(uint16_t msTime, void (*Event)(void))
         if (TimerEvent[timereventcnt].Time == _INACTIVE_TIMER_EVENT)
         {
             TimerEvent[timereventcnt].Time = stTimeInterval;
+				  	TimerEvent[timereventcnt].SetTimeInterval = stTimeInterval;
             TimerEvent[timereventcnt].Event = Event;
             return _TRUE;
         }
@@ -118,10 +120,9 @@ void fw_timer_event_Handler(void)
     {
         if (TimerEvent[timereventcnt].Time == 0)
         {
-            TimerEvent[timereventcnt].Time = _INACTIVE_TIMER_EVENT;
-//			RTD_Log(LOGGER_INFO, "event = %x\n", (UINT32)TimerEvent[timereventcnt].Event);
+          //  TimerEvent[timereventcnt].Time = _INACTIVE_TIMER_EVENT;
+			TimerEvent[timereventcnt].Time = 	TimerEvent[timereventcnt].SetTimeInterval;
             (*TimerEvent[timereventcnt].Event) ();
-
         }
     }
 }
@@ -131,7 +132,7 @@ void  fw_timer_event_isr_1ms(void)
 	uint8_t  timereventcnt;
 	for (timereventcnt = 0; timereventcnt < _MAX_EVENT_AMOUNT; timereventcnt++)
 	{
-	if (TimerEvent[timereventcnt].Time != _INACTIVE_TIMER_EVENT)
+	    if (TimerEvent[timereventcnt].Time != _INACTIVE_TIMER_EVENT)
 		{
     		if (TimerEvent[timereventcnt].Time > 0)
 			{

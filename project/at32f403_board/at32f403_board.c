@@ -24,7 +24,7 @@
   */
 
 #include "at32f403_board.h"
-
+#include "at32f403.h"
 /** @addtogroup AT32F403_board
   * @{
   */
@@ -412,10 +412,103 @@ void timer_1ms_init(void)
 }
 
 /**
-  * @}
-  */
+ * @brief 初始化PA15的PWM输出
+ * @param frequency: PWM频率 (Hz)
+ * @param duty_cycle: 占空比 (0-1000, 表示0.0%-100.0%)
+ */
+void PA15_PWM_Init(uint32_t frequency, uint16_t duty_cycle)
+{
+    gpio_init_type gpio_init_struct;
+    tmr_output_config_type tmr_output_struct;
+    
+    /* 1. 开启时钟 */
+    crm_periph_clock_enable(CRM_GPIOA_PERIPH_CLOCK, TRUE);  // GPIO时钟
+    crm_periph_clock_enable(CRM_TMR2_PERIPH_CLOCK, TRUE);   // 定时器2时钟
+    crm_periph_clock_enable(CRM_IOMUX_PERIPH_CLOCK, TRUE);  // 复用时钟
+    
+    /* 2. 配置GPIO引脚 */
+    gpio_default_para_init(&gpio_init_struct);
+    gpio_init_struct.gpio_pins = GPIO_PINS_1;
+    gpio_init_struct.gpio_mode = GPIO_MODE_MUX;           // 复用模式
+    gpio_init_struct.gpio_out_type = GPIO_OUTPUT_PUSH_PULL;
+    gpio_init_struct.gpio_pull = GPIO_PULL_NONE;
+    gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_STRONGER;
+    gpio_init(GPIOA, &gpio_init_struct);
+	
+		
+    tmr_32_bit_function_enable(TMR2, TRUE);
+	
+    /* 3. 配置引脚复用 - 将PA15复用为TMR2_CH1 */
+    gpio_pin_remap_config(TMR2_MUX_01, TRUE);
+    
+    /* 4. 配置定时器基本参数 */
+    // 系统时钟为72MHz，计算预分频和周期值
+    uint32_t timer_clock = 72000000;  // 72MHz
+    uint32_t prescaler = 72;          // 预分频器，得到1MHz计数频率
+    uint32_t period = timer_clock / prescaler / frequency - 1;
+    
+    tmr_base_init(TMR2, period, prescaler - 1);
+    tmr_cnt_dir_set(TMR2, TMR_COUNT_UP);
+    
+    /* 5. 配置PWM输出 */
+    tmr_output_default_para_init(&tmr_output_struct);
+    tmr_output_struct.oc_mode = TMR_OUTPUT_CONTROL_PWM_MODE_A;
+    tmr_output_struct.oc_output_state = TRUE;
+    tmr_output_struct.oc_polarity = TMR_OUTPUT_ACTIVE_HIGH;
+    tmr_output_struct.oc_idle_state = FALSE;
+    tmr_output_channel_config(TMR2, TMR_SELECT_CHANNEL_1, &tmr_output_struct);
+    
+    /* 6. 设置占空比 */
+    uint32_t pulse = (period + 1) * duty_cycle / 1000;
+    tmr_channel_value_set(TMR2, TMR_SELECT_CHANNEL_1, pulse);
+    
+    /* 7. 使能输出比较预装载 */
+    tmr_output_channel_buffer_enable(TMR2, TMR_SELECT_CHANNEL_1, TRUE);
+    
+    /* 8. 使能自动重载预装载 */
+    tmr_period_buffer_enable(TMR2, TRUE);
+    
+    /* 9. 启动定时器 */
+    tmr_counter_enable(TMR2, TRUE);
+}
 
 /**
-  * @}
+  * @brief  设置PA15的PWM占空比
+  * param  duty_cycle: PWM占空比 (0-100)
   */
-
+ void PA15_PWM_SetDutyCycle(uint16_t duty_cycle)
+{
+    uint32_t period = tmr_period_value_get(TMR2);
+    uint32_t pulse = (period + 1) * duty_cycle / 1000;
+    
+    tmr_channel_value_set(TMR2, TMR_SELECT_CHANNEL_1, pulse);
+}
+/**
+ * @brief 设置PA15 PWM的频率
+ * @param frequency: PWM频率 (Hz)
+ */
+void PA15_PWM_SetFrequency(uint32_t frequency)
+{
+    uint32_t timer_clock = 72000000;  // 72MHz
+    uint32_t prescaler = 72;          // 预分频器
+    uint32_t period = timer_clock / prescaler / frequency - 1;
+    
+    tmr_period_value_set(TMR2, period);
+}
+/**
+ * @brief 启动/停止PA15 PWM输出
+ * @param enable: TRUE启动, FALSE停止
+ */
+void PA15_PWM_Enable(confirm_state enable)
+{
+    tmr_counter_enable(TMR2, enable);
+}
+/**
+ * @brief 集成到你的项目中的PWM控制函数
+ */
+void drive_pwm_duty_set(unsigned int duty)
+{
+    // duty范围假设为0-100
+    uint16_t duty_cycle = duty * 10; // 转换为0-1000范围
+    PA15_PWM_SetDutyCycle(duty_cycle);
+}

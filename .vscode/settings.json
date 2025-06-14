@@ -2,6 +2,9 @@
     "idf.pythonInstallPath": "D:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
     "files.associations": {
         "*.json": "jsonc",
-        "multi_button.h": "c"
+        "multi_button.h": "c",
+        "led_control.h": "c",
+        "at32f403.h": "c",
+        "at32f403_board.h": "c"
     }
 }

@@ -1,4 +1,3 @@
-
 /**
   **************************************************************************
   * @file     led_control.h
@@ -17,6 +16,8 @@ extern "C" {
 #include<stdint.h> 
 
 void Led_control_by_count(unsigned char count);
+
+void led_button_init(void);
 
 #ifdef __cplusplus
 }

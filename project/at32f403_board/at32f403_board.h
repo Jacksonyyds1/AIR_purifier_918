@@ -130,6 +130,12 @@ void uart_print_init(uint32_t baudrate);
 
 void timer_1ms_init(void);
 
+ void PA15_PWM_Init(uint32_t frequency, uint16_t duty_cycle);
+ void PA15_PWM_SetDutyCycle(uint16_t duty_cycle);
+ void PA15_PWM_SetFrequency(uint32_t frequency);
+ void PA15_PWM_Enable(confirm_state enable);
+ void drive_pwm_duty_set(unsigned int duty);
+
 /**
   * @}
   */
