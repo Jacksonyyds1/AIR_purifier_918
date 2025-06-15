@@ -106,7 +106,7 @@ void core_off_timer_te_register(TEKTime_t *time);
 void core_off_timer_table_register(unsigned char *table, unsigned char table_size);
 #endif
 
-void drive_pwm_duty_set(unsigned int duty);
+//void drive_pwm_duty_set(unsigned int duty);
 #if USE_STATUS_WRITE
 void UserFactoryReset(void);
 #endif

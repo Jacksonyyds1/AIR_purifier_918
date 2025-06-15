@@ -506,9 +506,9 @@ void PA15_PWM_Enable(confirm_state enable)
 /**
  * @brief 集成到你的项目中的PWM控制函数
  */
-void drive_pwm_duty_set(unsigned int duty)
-{
-    // duty范围假设为0-100
-    uint16_t duty_cycle = duty * 10; // 转换为0-1000范围
-    PA15_PWM_SetDutyCycle(duty_cycle);
-}
+//void drive_pwm_duty_set(unsigned int duty)
+//{
+//    // duty范围假设为0-100
+//    uint16_t duty_cycle = duty * 10; // 转换为0-1000范围
+//    PA15_PWM_SetDutyCycle(duty_cycle);
+//}
